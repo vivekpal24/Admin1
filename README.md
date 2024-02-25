@@ -34,7 +34,7 @@ To run the Panacea Admin Panel locally, follow these steps:
   - MongoDB
  
 ## UI
-[1](https://github.com/vivekpal24/Admin1/assets/119289503/c413a645-c796-4a25-b719-4fed4b8c2c02)
+![1](https://github.com/vivekpal24/Admin1/assets/119289503/c413a645-c796-4a25-b719-4fed4b8c2c02)
 
 ![35](https://github.com/vivekpal24/Admin1/assets/119289503/fef8a0b0-252d-42e3-9bf9-70fe671780e3)
 ![45](https://github.com/vivekpal24/Admin1/assets/119289503/8711b822-0aa1-4f35-a1cf-a1588916f3d8)
