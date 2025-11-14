@@ -1,124 +1,41 @@
-# 📱 AlmaArchives – Campus Management & Complaint System App
+# Panacea Admin Panel
 
-**AlmaArchives** is a Flutter + Firebase mobile application designed to streamline and organize campus workflows.  
-It allows students to submit complaints, track issue resolutions, request sports equipment, and stay informed about ongoing college events—all in one central platform.
+Welcome to the Panacea Admin Panel! This web application provides administrators with powerful tools to manage orders and enhance the user experience of the main Panacea website.
+ **Adminemail:** 22363@iiitu.ac.in
+ **Password:** Anitapal@1234
+## Features
 
-This project was developed for the **Progothon Hackathon**, where it demonstrated a complete and scalable solution for modernizing campus operations.
+- **Order Management**: View and manage orders with ease. Update the status of orders to track their progress from pending to delivered.
+- **User Authentication**: Secure user authentication system ensures only authorized personnel can access the admin panel.
+- **Dynamic UI**: Easily customize the main website's user interface by adding new sections, pages, widgets, or functionalities.
+- **Responsive Design**: Enjoy a seamless user experience across different devices, including desktops, tablets, and mobile phones.
 
----
+## Getting Started
 
-## 🚀 Overview
+To run the Panacea Admin Panel locally, follow these steps:
 
-AlmaArchives provides a centralized platform for students and administrators to:
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies by running `npm install`.
+4. Start the development server with `npm start`.
+5. Access the admin panel in your web browser at `http://localhost:3000`.
 
-- Register complaints and track their progress  
-- Request, issue, and manage sports equipment  
-- View upcoming and ongoing college events  
-- Receive real-time updates powered by Firebase  
-- Reduce manual interaction with admin or hostel authorities  
+## Technologies Used
 
-The goal is to create a **transparent, user-friendly, real-time campus management system**.
+- Frontend:
+  - React.js
+  - HTML5
+  - CSS3
+  - JavaScript
 
----
+- Backend (API):
+  - Node.js
+  - Express.js
+  - MongoDB
+ 
+## UI
+![1](https://github.com/vivekpal24/Admin1/assets/119289503/c413a645-c796-4a25-b719-4fed4b8c2c02)
 
-## 🧩 Key Features
+![35](https://github.com/vivekpal24/Admin1/assets/119289503/fef8a0b0-252d-42e3-9bf9-70fe671780e3)
+![45](https://github.com/vivekpal24/Admin1/assets/119289503/8711b822-0aa1-4f35-a1cf-a1588916f3d8)
 
-### 📝 **Complaint Registration Module**
-- File complaints related to:
-  - Hostel
-  - Mess
-  - Classroom
-  - Internet/Wi-Fi
-  - Maintenance / Electrical issues
-- Complaints stored and categorized in Firebase
-- Live status tracking: **Pending → In Progress → Resolved**
-- Admins can update issue progress instantly
-
----
-
-### ⚙️ **Real-Time Issue Tracking**
-- Every status update reflects instantly using **Firebase Realtime Database / Firestore**
-- Provides clarity on issue resolution timelines
-- Students can monitor the full lifecycle of their complaints
-
----
-
-### 🏏 **Sports Equipment Management**
-- Request and track sports equipment like footballs, bats, rackets, etc.
-- View availability in real-time
-- Admin updates equipment status:
-  - **Issued**
-  - **Returned**
-  - **Unavailable**
-- Prevents equipment misuse and misplacement
-
----
-
-### 🎉 **College Events Dashboard**
-- Displays active, upcoming, and past college events  
-- Shows event details: date, time, location & description  
-- Helps students stay engaged with campus activities  
-
----
-
-## 🔥 Additional Functionalities
-
-### 👤 **Authentication**
-- Secure login and logout using **Firebase Authentication**
-- Email/password-based login system
-
-### 🔄 **Live Data Sync**
-- Entire system powered by Firebase ensures:
-  - Instant updates  
-  - Consistent data across all users  
-  - No page refresh required  
-
-### 💾 **Local Storage**
-- Uses **Shared Preferences** for:
-  - Saving user session  
-  - Faster loading  
-  - Persistent login  
-
-### 🎨 **Clean & Responsive UI**
-- Built using modern Flutter widgets
-- Smooth navigation and easy-to-use layout  
-- Supports cross-platform performance  
-
----
-
-## 🛠️ Tech Stack
-
-### **Mobile App**
-- Flutter  
-- Dart  
-
-### **Backend & Cloud**
-- Firebase Authentication  
-- Firebase Firestore / Realtime Database  
-- Firebase Storage (if used)  
-- Firebase Cloud Messaging (optional for alerts)
-
-### **Local Storage**
-- Shared Preferences  
-
-### **Libraries & Tools**
-- Flutter Calendar / UI Widgets  
-- Material UI Components  
-- Provider / GetX (if used)  
-
----
-
-## 🏆 Built For
-### **Progothon Hackathon – IIIT Una**
-AlmaArchives was created as a complete campus solution during the **Progothon Hackathon**, showcasing real-world problem-solving using modern mobile technologies.
-
----
-
-## 🚀 Future Enhancements
-- Admin Web Dashboard  
-- Push notifications for issue updates  
-- QR-based sports equipment issuance  
-- Multi-hostel and multi-department support  
-- Complaint analytics for admin  
-
----
